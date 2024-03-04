@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Contact</title>
+    <!-- Link to Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Link to your custom CSS file -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navigation bar -->
+    <nav class="navbar bg-pink-500">
+        <div class="container mx-auto flex justify-between items-center">
+            <span class="font-bold text-lg">My Portfolio</span>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-pink-500 text-white">
+        <div class="container mx-auto">
+            <div class="max-w-lg mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-8">Get in touch with me</h2>
+                <p class="text-lg mb-4 text-center">Do you have a question or project in mind? Contact me here.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Contact Info -->
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                        <ul>
+                            <li class="flex items-center mb-2">
+                                <span class="mr-2"><i class="uil uil-envelope"></i></span>
+                                <p>Opemipoayo12@gmail.com</p>
+                            </li>
+                            <li class="flex items-center mb-2">
+                                <span class="mr-2"><i class="uil uil-phone"></i></span>
+                                <p>+470 708 5000</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Contact Form -->
+                    <div>
+                        <form action="#" class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium">Name</label>
+                                <input type="text" id="name" name="name" class="input-field w-full" placeholder="Your Name" required>
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium">Email</label>
+                                <input type="email" id="email" name="email" class="input-field w-full" placeholder="Your Email" required>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium">Message</label>
+                                <textarea id="message" name="message" class="input-field w-full" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="submit-button w-full">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer bg-gray-900 text-white">
+        <div class="container mx-auto">
+            &copy; 2024 My Portfolio
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-/* Reset default margin and padding */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,14 +12,14 @@ body {
     color: #333;
 }
 
-/* Container styles */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Header styles */
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ body {
     display: none;
 }
 
-/* Navigation menu styles */
+
 .nav_menu_list {
     list-style: none;
     display: flex;
@@ -75,7 +75,7 @@ body {
     margin-top: 40px;
 }
 
-/* Top header styles */
+
 .top-header {
     margin-bottom: 20px;
 }
@@ -85,13 +85,12 @@ body {
     color: black; /* Black color */
 }
 
-/* About section styles */
+
 .about-info h3 {
     font-size: 24px;
     color: black; /* Black color */
 }
 
-/* Skills box styles */
 .skills-header h3 {
     font-size: 20px;
     color: black; /* Black color */
@@ -106,7 +105,6 @@ body {
     border-radius: 5px;
 }
 
-/* Contact section styles */
 .contact-info p {
     margin-bottom: 10px;
 }

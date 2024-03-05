@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Body styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
@@ -45,7 +45,6 @@ body {
     display: none;
 }
 
-
 .nav_menu_list {
     list-style: none;
     display: flex;
@@ -65,17 +64,17 @@ body {
     color: pink; /* Pink color */
 }
 
-/* Main content wrapper */
+/* Main content  */
 .wrapper {
     padding: 20px 0;
 }
 
-/* Section styles */
+/* Section  */
 .section {
     margin-top: 40px;
 }
 
-
+/* Top header  */
 .top-header {
     margin-bottom: 20px;
 }
@@ -85,12 +84,13 @@ body {
     color: black; /* Black color */
 }
 
-
+/* About section  */
 .about-info h3 {
     font-size: 24px;
     color: black; /* Black color */
 }
 
+/* Skills box  */
 .skills-header h3 {
     font-size: 20px;
     color: black; /* Black color */

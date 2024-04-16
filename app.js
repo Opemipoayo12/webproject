@@ -14,14 +14,10 @@ app.post('/submit-form', (req, res) => {
     res.send(`Username is $oayorin1`);
 });
 app.post('/submit-form', (req, res) => {
-    const firstname = req.body.firstname; // access form data
+    const fullname = req.body.fullname; // access form data
     // Add validation logic here
-    res.send(`firstname is opemipo`);
-});
-app.post('/submit-form', (req, res) => {
-    const lastname = req.body.lastname; // access form data
-    // Add validation logic here
-    res.send(`lastname is ayorinde`);
+    res.send(`full name is opemipo`);
+
 });
 app.post('/submit-form', (req, res) => {
     const id = req.body.id; // access form data

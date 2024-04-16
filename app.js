@@ -20,7 +20,7 @@ app.post('/submit-form', (req, res) => {
 
 });
 app.post('/submit-form', (req, res) => {
-    const id = req.body.id; // access form data
+    const dateofbirth = req.body.dob; // access form data
     // Add validation logic here
     res.send(`id number is 01122004`);
 });
